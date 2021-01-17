@@ -1,0 +1,66 @@
+	1. Class 1st Jan 9,2020
+		a. Difference between HTTP1.1 vs HTTP2
+		b. http version history
+		c. List 5 difference between Browser JS(console) vs Nodejs
+		d. what happens when you type a URL in the address bar in the browser?
+	
+	Also read about the tcp and udp
+	
+
+_____________________________________
+
+Http 1.1 :-
+In Http 1.1 lot of feature has been introduced like
+	1. CORS has been introduced 
+	2. Keep alive action has been introduced
+
+There were flaws in the http 1.1 thos eare as follows:
+	1. Repeatition of the header data.
+	2. More focus on the minifying the css and js etc
+	3. More focus on the gzip
+	4. It used to create the max of 6 connection to the server to the client
+	
+
+Those flaws has been solved in the http 2.0
+	1. Http 2.0 create one tcp conection but it uses stream of the data in the request
+	2. And https is mandatory for the http 2.0 so it is more secure
+	3. HAPCk - here header data is separate from the request data. And also can be zipped.it also
+	Cache the headr data
+	4. Hpack also reduces the request size
+	5. PUSH - it also ppushes the mandatory data along with the index.html data
+	6. Also it is built on http 1.1
+
+__________________________
+
+	2. Https Version history
+	1991 - 0.9
+	1996 - 1.0
+	1997 - 1.1
+	2012 - SPDY/2
+	2015 - 2.0 
+	
+__________________________
+
+
+	
+	1. NODE
+		a. There is no DOM element nothing to renddr in the node
+		b. There is not window and document as a global object
+		c. There is a global object in node [it also contains like process, core modules]
+		d. It is powerful
+		e. Context switching is available easily
+		f. Ability to interact the system like read and write
+	2. JS browser
+		a. Ther is a DOM
+		b. There is window and document as a global object
+		c. There is no global object that is available globally
+		d. It is not as powerful as node js
+		e. Here contet switching is tough
+		f. Js has not any option to read and write on the server
+		
+		
+_______________________________
+
+what happens when you type a URL in the address bar in the browser?
+		a. When we type first the address then this address goes to ISP via router to DNS and then DNS give the ip addresss of the url to the ISP 
+		b. ISP provide IP to the browser and then brower do the request to the direct machine where our desired HTML document is present and then HTML data ccomes 		with the other content to the browser and it gets rendred
