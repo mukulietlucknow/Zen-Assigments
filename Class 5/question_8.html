@@ -1,0 +1,111 @@
+<!-- 8. Use the table tag to design given image -->
+<br><br>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact us</title>
+</head>
+<style>
+    h3{
+        color: white;
+        margin-top:3px;
+        background-color: red;
+        display:inline;
+        padding: 0px 10px 1px 10px;
+    }
+    div#form{
+        border: 3px solid black;
+        padding: 5px;
+        display:inline-block;
+        background-color:rgb(243, 235, 235);
+    }
+    input#input{
+        border: none;
+        border-bottom: 2px solid black;
+    }
+
+    div#block{
+        display: inline-block;
+    }
+    body{
+        line-height: .8;
+    }
+
+    input{
+        background-color:rgb(243, 235, 235);
+    }
+    label{
+        font-size: 12px;
+        padding-top: 20px;
+        margin-top: 20px;
+    }
+
+    ::-webkit-input-placeholder {
+    color: rgb(3, 0, 1);
+    font-size: 14px;
+    font-weight: bold;
+    font-family: Brush Script MT, Brush Script Std, cursive;
+    text-align: center;
+    }
+</style>
+<body>
+    <div id="form">
+        <h3>Yes! I want to subscribe to <i>Mag-O-Zine</i></h3> <br><br>
+        <form action="">
+            <div id="block" style="width: 48%;">
+                <input id="input" type="text" name="fname" placeholder="John"><br>
+                <label for="fname">First name</label>
+            </div>
+            
+            <div id="block" style="width: 48%; margin-left:0px;">
+                <input id="input" type="text" name="lname" placeholder="Doe"><br>
+                <label for="lname">Last name</label>
+            </div>
+           <br>
+
+            
+            <input id="input" type="text" name="address" placeholder="address" style="width: 70%;"><br>
+            <label for="email">Address</label>
+            <br>
+
+            <div id="block">
+                <input id="input" type="text"  placeholder="bangalore" style="width: 110px;"> <br>
+                <label for="city">City</label>
+            </div>
+
+            <div id="block" >
+                <input id="input" type="text"  placeholder="KA" style="width: 110px;"><br>
+                <label for="state">State</label>
+            </div>
+
+            <div id="block" >
+                <input id="input" type="text"  placeholder="560023" style="width: 110px;"><br>
+                <label for="zip">Zip</label>
+            </div>
+            
+            <br><br>
+            <label style="font-weight:bold" for="title"> Subscribe for: </label>
+            <input type="checkbox" id="subscribe" name="subscription" value="1">
+            <label style="font-weight:bold" for="subscription"> 1 year ($19.95)</label>
+            <input type="checkbox" id="subscribe" name="subscription" value="2">
+            <label style="font-weight:bold" for="subscription"> 2 year ($35.00)</label>
+
+            <br><br>
+            <label style="font-weight:bold" for="title"> Send me more information about: </label><br>
+            <input type="checkbox" id="letter" name="subscription_type" value="Computer-Zine">
+            <label style="font-weight:bold" for="subscription_type">Computer-Zine</label> <br>
+            <input type="checkbox" id="letter" name="subscription_type" value="Fishing-Zine">
+            <label style="font-weight:bold" for="subscription_type">Fishing-Zine</label> <br>
+            <input type="checkbox" id="letter" name="subscription_type" value="Cat-O-Zine">
+            <label style="font-weight:bold" for="subscription_type"> Cat-O-Zine</label> <br>
+            
+        </form> 
+    </div>
+    <br><br>
+    
+    <mark>HTML & CSS is awesome</mark>
+    <!-- 10. In your, HTML page add the below line and Highlight it without using any CSS.  -->
+</body>
+</html>
