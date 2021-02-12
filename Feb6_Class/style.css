@@ -1,0 +1,59 @@
+
+div#equation{
+    display:inline-flex;
+    font-size:24px;
+    font-weight : bold;
+}
+ /* 3. Write a media rule to change only the font size of web page when it's resized. */
+@media screen and (min-width: 800px) {
+    body {
+      background-color: lightgreen;
+    }
+
+    div#equation{
+        display:inline-flex;
+        font-size:28px;
+        font-weight : bold;
+    }
+  }
+
+
+#base{
+    margin-top:-14px;
+}
+
+#c2{
+    margin: 27px 8px 0 8px;
+}
+
+/* 2. Write a css rule of rounded rectangle, dashed border, grayscale for all image tags in your webpage */
+img {
+    border: 5px dashed #555;
+    border-radius: 5px;
+}
+
+/* 4. Use HTML & CSS to display different types of cursors */
+img:hover{
+    cursor: -webkit-grabbing; cursor: grabbing;
+}
+
+/* Write a CSS class that meets the Box Model requirement for all the div tags in your page. */
+
+div{
+    margin: 5px 5px 5px 5px;
+    padding: 5px 5px 5px 5px;
+    border: 2px solid grey;
+}
+
+p#q6 span:hover{
+    font-size:20px;
+    color :red;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode';
+
+}
+
+div#translate{
+    background: green;
+    transform: translate(100px, 100px);
+}
+
