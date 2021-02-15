@@ -57,3 +57,34 @@ div#translate{
     transform: translate(100px, 100px);
 }
 
+/* 8. Define a CSS class to show tooltip when mouse moved over the elements. */
+.tooltip .tooltiptext{
+    visibility: hidden;
+    width: 120px;
+    background-color: rgb(46, 104, 131);
+    color: #fff;
+    text-align: center;
+    border-radius: 6px;
+    padding: 5px 0;
+
+    /* Position the tooltip */
+    position: absolute;
+    z-index: 1;
+}
+
+.tooltip {
+    position: relative;
+    display: inline-block;
+  }
+
+.tooltip:hover .tooltiptext{
+    visibility: visible;
+}
+/* end */
+
+.clip-me {  
+    position: absolute; 
+    clip: rect(0px, 160px, 170px, 0px); 
+    /* values descript a top/left point and bottom/right point */
+  } 
+
